@@ -1,1 +1,6 @@
-# BicabaLionel
+#  Electrical Engineering
+
+## Education 
+
+
+### Project 
