@@ -1,6 +1,0 @@
-#  Electrical Engineering
-
-## Education 
-
-
-### Project 
