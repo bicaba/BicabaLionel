@@ -92,7 +92,7 @@ I used  **LTspice** to build and simulate my audio amplifier circuit with a musi
 
 V(input) = The music signal waveform at the input of the amplifier. 
 
-<audio controls src="23_Divine_Guitar_07_132bpm_Abm.wav" title="input"></audio>
+<audio controls src="https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/23_Divine_Guitar_07_132bpm_Abm.wav" title="input"></audio>
 
 V(speaker) = The amplified music signal waveform at the output to the speaker.
 
