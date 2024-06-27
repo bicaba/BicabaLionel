@@ -2,7 +2,7 @@
 Sometimes the sound from my laptop is not powerful enough when I'm watching videos or listening to music, so I often have to use my headphones. In my Circuit Theory 2 class, we learned how op-amps work, and I want to apply that knowledge to this project. My goal is to build an audio amplifier to use with my laptop, so I don't always have to rely on my headphones. Additionally, I'm planning to build an AM radio for a future project, and I intend to use this audio amplifier for that as well😊.
 
 
- ![pcb_4](/https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/PCB3_12.png)
+ ![pcb_4](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/PCB3_12.png)
 
  
   📌 Audio Amplifier Specification:
