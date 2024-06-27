@@ -32,7 +32,7 @@ An op amp (Operationnel amplifer ) is an intagrated circuit (IC) that amplifies 
    - Non-inverting amplifiers : Gain = V_Output/V_input = 1+ ( R1/R2)
    - Voltage followers : Gain = 1 
 
-![Op amp symbol](/op-amp-symbol.jpg)
+![Op amp symbol](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/op-amp-symbol.jpg)
 
 fig 1: the **μA741** is an example of op amp 
 
@@ -41,18 +41,18 @@ fig 1: the **μA741** is an example of op amp
 I will built a Non-inverting amplifer using the μA741 for the demonstration
 - Simulation on **Multisim** :
 
-![Non-inverting amplifier](/74565.jpg)
+![Non-inverting amplifier](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/74565.jpg)
 
 fig 3: Circuit of a Non-inverting amplifier
 
-![Oscilloscope out](/741%20oscillos.jpg)
+![Oscilloscope out](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/741%20oscillos.jpg)
 
 fig 4: Waveform of the circuit. Green= V_input(input voltage) and CH3 = V_output (Output voltage ) Gain = 11.2/2.82 = 3.97
 
 - Test of the circuit
-![Non-inverting amplifier](/test%20ciruiot.jpg)
+![Non-inverting amplifier](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/test%20ciruiot.jpg)
 
-![Oscillocope_output test ](image.png)
+![Oscillocope_output test ](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/image.png)
 
 *fig 5: Yellow for input voltage(2.09 V) and Green for Output voltage(8.4 V)* 
 
@@ -70,7 +70,7 @@ the Op amp IC being used in this project is the **LM386**
 - We have a voltage gains from 20 to 200
 - the minimum  supply voltage is 4 V and the maximum voltage is 12 V
 
-![datasheet_LM386][def]
+![datasheet_LM386](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/datasheetlm386.jpg)
 
 *fig 6: Pin configuration of the LM386 from the datasheet*
 
@@ -80,23 +80,31 @@ I used  **LTspice** to build and simulate my audio amplifier circuit with a musi
 
 
 
-![datasheet_LM386](/circuit%20complet%20annoté.png)
+![datasheet_LM386](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/circuit%20complet%20annot%C3%A9.png)
                
 
   *fig7: Circuit on LTspice*
 
-![datasheet_LM386](/output.jpg)
+![datasheet_LM386](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/output.jpg)
 *fig8: Waveform (input and speaker)*
 
 ### Result 🥁: 
 
 V(input) = The music signal waveform at the input of the amplifier. 
 
-<audio controls src="https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/23_Divine_Guitar_07_132bpm_Abm.mov"></audio>
+
+https://github.com/bicaba/BicabaLionel/assets/20146995/9267046d-2571-4ef5-863d-18f8caae642b
+
 
 V(speaker) = The amplified music signal waveform at the output to the speaker.
 
-<audio controls src="_output.wav" title="_output"></audio>
+
+
+
+https://github.com/bicaba/BicabaLionel/assets/20146995/1c008ecf-ce24-4267-b3fb-768eea33812a
+
+
+
 
 ## Part 📃
  - 1 x LM386
@@ -105,8 +113,9 @@ V(speaker) = The amplified music signal waveform at the output to the speaker.
  - 1 x 0.05 uF or 0.1 uF Polyester (Mymar) Film capacitor 
  - 1 x 47 pF ceramic capacitor 
  - 3 x 0.27 uF Polyester (Mymar) Film capacitor
- - 1 x 10 ohms 125mW Resistor 
- - 2 x 10k ohms potentiometer 
+ - 1 x 10 ohm 125mW Resistor 
+ - 2 x 10k ohm Potentiometer 
+ - 1 x 8 ohm Speaker 
 
 ## PCB design
 
@@ -114,21 +123,20 @@ I designed the audio amplifier's PCB using **Altium Designer**.
 
 Schematic Design : 
 
-![shematic](/schematic_altium.jpg)
+![shematic](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/schematic_altium.jpg)
 
   PCB Design :
 
-![pcb_555](/pcb_.jpg)
+![pcb_555](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/pcb_.jpg)
 
-![pcb_2](/pcb_1.jpg)
+![pcb_2](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/pcb_1.jpg)
 
-![pcb_1](/PCB3_11.png)
+![pcb_1](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/PCB3_11.png)
 
-![pcb_3](/PCB3_12.png)
+![pcb_3](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/PCB3_12.png)
 
-![pcb_4](/PCB3_13.png)
+![pcb_4](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/PCB3_13.png)
 
-![pcb_5](/PCB3__6.png)
+![pcb_5](https://github.com/bicaba/BicabaLionel/blob/main/Audio%20amplifier/PCB3__6.png)
 
 
-[def]: /datasheetlm386.jpg
